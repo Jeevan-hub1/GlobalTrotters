@@ -4,7 +4,7 @@ import json
 from datetime import datetime, timedelta
 
 class TravelPlannerAPITester:
-    def __init__(self, base_url="https://travelplanner-29.preview.emergentagent.com"):
+    def __init__(self, base_url="https://api-explorer-27.preview.emergentagent.com"):
         self.base_url = base_url
         self.api_base = f"{base_url}/api"
         self.token = None
